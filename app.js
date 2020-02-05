@@ -59,7 +59,7 @@ window.addEventListener('load', ()=>{
 	//以下关于小天气图标skycon
 	//每个小skycon有自己的id
 	function setIcons(icon, iconID){
-		const skycons = new Skycons({"color": "pink"});
+		const skycons = new Skycons({"color": "white"});
 		//replace every "-" by "_"
 		//因为darksky里面icon两个词间隔是- 但是skycon里面的间隔是_
 		const currentIcon = icon.replace(/-/g, "_").toUpperCase();
